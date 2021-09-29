@@ -158,3 +158,7 @@ const articleElements = data.map(elem => {
 articleElements.forEach(elemToAdd => {
   article.appendChild(elemToAdd);
 })
+
+const newArticle = articleMaker({title: "Breaking News!!", date: "TODAY", firstParagraph: "L", secondParagraph: "O", thirdParagraph: "L"});
+
+article.appendChild(newArticle);
